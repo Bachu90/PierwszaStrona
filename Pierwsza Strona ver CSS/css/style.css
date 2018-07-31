@@ -1,0 +1,138 @@
+@charset "iso-8859-2";
+/* CSS Document */
+
+body {
+	background-image: url(../img/background.jpg);
+	background-repeat: repeat;
+}
+
+.workbg {
+	background-color: #e0e2d0;
+	margin-top: auto;
+	margin-right: 0px;
+	margin-bottom: auto;
+	margin-left: 0px;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #b8bba6;
+	border-bottom-color: #b8bba6;
+	height: 556px;
+	width: 100%;
+}
+
+#wrapper {
+	height: 456px;
+	width: 693px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.menu {
+	width: 90px;
+	height: 456px;
+	float:left;
+	margin-top: auto;
+	margin-bottom: auto;
+	background-image: url(../img/Menu-5.jpg);
+	background-repeat: repeat;
+}
+
+#menu_top {
+	vertical-align: top;
+	margin: 0;
+}
+
+#button {
+	vertical-align: top;
+	margin: 0;
+}
+
+#menu_space {
+	width: 90px;
+	height: 17px;
+}
+
+#menu_bottom {
+	background-image:url(../img/Menu-5.jpg);
+	width: 90px;
+	height: 63px;
+	vertical-align: bottom;
+	margin-top: 0px;
+}
+
+#container {
+	width: 603px;
+	height: 456px;
+	float:left;
+	margin-top: auto;
+	margin-bottom: auto;
+	background-image: url(../img/middle2.jpg);
+	background-repeat: repeat;
+}
+
+#top_border {
+	width: 594px;
+	height: 15px;
+	margin: 0;
+	float: left;
+	vertical-align: top;
+}
+
+#right_top_corner {
+	width: 9px;
+	height: 15px;
+	margin: 0;
+	float: left;
+	vertical-align: top;
+}
+
+#textbox_top {
+	width: 561px;
+	height: 5px;
+	margin-top: 16px;
+	margin-left: 17px;
+	margin-right: 16px;
+	margin-bottom: 0px;
+	vertical-align: top;
+}
+
+#textbox_center {
+	width: 561px;
+	height: 295px;
+	margin-top: 9px;
+	margin-left: 17px;
+	margin-right: 16px;
+	margin-bottom: 0px;
+	vertical-align: top;
+	background-image:url(../img/middle_center.jpg)
+}
+
+#textbox_bottom {
+	width: 561px;
+	height: 140px;
+	vertical-align: bottom;
+	margin-top: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+
+#bottom_border {
+	width: 594px;
+	height: 63px;
+	float: left;
+	vertical-align: bottom;
+}
+
+#right_bottom_corner {
+	width: 9px;
+	height: 63px;
+	margin: 0;
+	float: left;
+	vertical-align: bottom;
+}

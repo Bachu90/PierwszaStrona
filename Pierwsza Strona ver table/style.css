@@ -1,0 +1,29 @@
+.middle {
+	background-color: #e0e2d0;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #b8bba6;
+	border-bottom-color: #b8bba6;
+}
+.background {
+	background-image: url(images/background.jpg);
+	background-repeat: repeat;
+}
+.menu_bg {
+	background-image: url(images/Menu-5.jpg);
+	background-repeat: repeat;
+}
+.right_border {
+	background-image: url(images/right_border.jpg);
+	background-repeat: repeat;
+}
+.center_bg {
+	background-image: url(images/middle.jpg);
+	background-repeat: repeat;
+}
+.text_bg {
+	background-image: url(images/middle_center.jpg);
+	background-repeat: repeat;
+}

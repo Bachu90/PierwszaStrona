@@ -1,0 +1,66 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-2">
+<title>Raptus Media Web Site</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+</head>
+
+<body>
+<div class="workbg">
+<div id="wrapper">
+<div class="menu">
+<div id="menu_top"><img src="img/left_top_corner.jpg"></div>
+
+<div id="button"><a href="index.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Button1','','img/Menu-1-ON.jpg',1)"><img src="img/Menu-1-OFF.jpg" name="Button1" width="90" height="94" border="0" id="Button1" /></a></div>
+
+<div id="button"><a href="about.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Button2','','img/Menu-2-ON.jpg',1)"><img src="img/Menu-2-OFF.jpg" name="Button2" width="90" height="95" border="0" id="Button2" /></a></div>
+
+<div id="button"><a href="projects.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Button3','','img/Menu-3-ON.jpg',1)"><img src="img/Menu-3-OFF.jpg" name="Button3" width="90" height="95" border="0" id="Button3" /></a></div>
+
+<div id="button"><a href="contact.htm" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Button4','','img/Menu-4-ON.jpg',1)"><img src="img/Menu-4-OFF.jpg" name="Button4" width="90" height="94" border="0" id="Button4" /></a></div>
+<div id="menu_space"><img src="img/Menu-5.jpg"></div>
+<div id="menu_space"><img src="img/Menu-5.jpg"></div>
+<div id="menu_space"><img src="img/Menu-5.jpg"></div>
+
+<div id="menu_bottom"><img src="img/left_bottom_corner.jpg"></div>
+</div>
+<div id="container">
+<div id="top_border"><img src="img/top_border.jpg"></div>
+<div id="right_top_corner"><img src="img/right_top_corner.jpg"></div>
+<div id="textbox_top"><img src="img/middle_top.jpg"></div>
+<div id="textbox_center"></div>
+<div id="textbox_bottom"><img src="img/middle_bottom2.jpg"></div>
+<div id="bottom_border"><img src="img/bottom_border.jpg"></div>
+<div id="right_bottom_corner"><img src="img/right_bottom_corner.jpg"></div>
+</div>
+</div>
+
+</div>
+</div>
+</body>
+</html>
